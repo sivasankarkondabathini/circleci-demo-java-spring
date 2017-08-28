@@ -67,6 +67,10 @@ jobs:
     docker:
       - image: docker.io/jenkins
 
+    steps:
+     
+      - checkout
+
 workflows:
   version: 2
   build-and-deploy:
